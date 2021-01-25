@@ -1,0 +1,13 @@
+@import "src/variables";
+
+.button {
+  color: $white;
+  background: $red;
+  border-radius: 4px;
+  height: 40px;
+  min-width: 120px;
+  padding: 5px 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+}

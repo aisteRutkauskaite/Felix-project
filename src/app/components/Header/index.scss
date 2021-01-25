@@ -1,0 +1,13 @@
+@import "src/variables";
+
+.header {
+  height: 70px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &-logo {
+    height: 100%;
+  }
+}

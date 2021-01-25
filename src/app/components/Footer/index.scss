@@ -1,0 +1,14 @@
+@import "src/variables";
+
+.footer {
+  height: 70px;
+  background: $gray;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_cards {
+  width: 200px;
+}
