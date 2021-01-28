@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="header">
       <img src={logo} alt="F letter" className="header-logo" />
-      <Button>Sign-in</Button>
+      <Button size="big">Sign-in</Button>
     </header>
   );
 }

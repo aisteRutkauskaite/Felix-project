@@ -7,10 +7,13 @@
 }
 
 .hero {
-  background-image: url("https://cdn.august.com.au/wp-content/uploads/2018/03/The-Bystander-Effect_Header-1-e1534393505129.png");
+  background-image: url("../images/Hero\ Image.jpg");
   width: 100%;
   height: 480px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

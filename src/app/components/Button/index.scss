@@ -3,11 +3,27 @@
 .button {
   color: $white;
   background: $red;
-  border-radius: 4px;
-  height: 40px;
-  min-width: 120px;
-  padding: 5px 20px;
   border: none;
+  border-radius: 4px;
+  outline: none;
   font-size: 16px;
   font-weight: 700;
+}
+
+.big {
+  padding: 11px 34px;
+}
+
+.small {
+  padding: 6px 25px;
+}
+
+.content-remove {
+  background-color: transparent;
+  border: 1px solid $red;
+}
+
+.content-add {
+  background: $red;
+  border: none;
 }

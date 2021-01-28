@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
       <p>We care about your entertainment. Copyright © 2019–2021 felix.com</p>
-      <img src={creditCards} class="footer_cards" alt="credit cards" />
+      <img src={creditCards} className="footer_cards" alt="credit cards" />
     </footer>
   );
 }

@@ -1,0 +1,9 @@
+.movies-content {
+  margin: 48px 55px;
+  min-height: 300px;
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 100px;
+  align-items: center;
+}
