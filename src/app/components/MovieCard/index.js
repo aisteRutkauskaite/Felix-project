@@ -19,7 +19,6 @@ function MovieCard({
         <p className="movie-description">{description}</p>
         <Button
           size="small"
-          // favorites={favorites}
           isTransperent={favorites.includes(id) ? true : false}
           onClick={() => toggleFavourites(id)}
         >
