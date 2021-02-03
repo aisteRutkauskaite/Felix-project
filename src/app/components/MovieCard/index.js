@@ -1,5 +1,13 @@
 import "./index.scss";
 import Button from "../Button";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  // Redirect,
+  Link,
+  // NavLink
+} from "react-router-dom";
 
 function MovieCard({
   title,

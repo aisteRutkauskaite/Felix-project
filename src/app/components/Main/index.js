@@ -1,6 +1,7 @@
 import "./index.scss";
-import { Footer, Header } from "../index";
-
+// import { Header } from "../index";
+import Footer from "../Footer";
+import Header from "../Header";
 import Button from "../Button";
 import Divider from "../Divider";
 import Movies from "../Movies";

@@ -1,14 +1,20 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import MovieCard from "../MovieCard";
+import { withRouter } from "react-router-dom";
 import "./index.scss";
+import Main from "../Main";
 
 class Movies extends React.Component {
-  state = {
-    isLoading: false,
-    error: null,
-    movies: [],
-    favorites: [],
-  };
+  constructor(movie) {
+    super();
+    this.state = {
+      isLoading: false,
+      error: null,
+      movies: [],
+      favorites: [],
+    };
+  }
 
   toggleFavourites = (id) => {
     console.log(id);
@@ -68,6 +74,24 @@ class Movies extends React.Component {
       </div>
     );
   }
+  // render() {
+  //   const { favorites } = this.state;
+  //   return (
+  //     <Router>
+  //       <Switch>
+  //         <Route exact path="/">
+  //           <Home
+  //             favorites={favorites}
+  //             toggleFavourites={this.toggleFavourites}
+  //           />
+  //         </Route>
+  //         <Route exact path="/login">
+  //           <Login />
+  //         </Route>
+  //       </Switch>
+  //     </Router>
+  //   );
+  // }
 }
 
-export default Movies;
+export default withRouter(Movies);
